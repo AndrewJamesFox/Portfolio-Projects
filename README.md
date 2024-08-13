@@ -1,9 +1,8 @@
 # Andrew Fox
-
-## Data Science Portfolio Projects
+Data Science Portfolio Projects
 
 ### My Links
-Back to my [Portfolio](https://andrewfox1.wordpress.com/data-science/)
+My [Portfolio](https://andrewfox1.wordpress.com/data-science/)
 <br>
 My [LinkedIn](www.linkedin.com/in/ajfandrewjfox)
 <br>
