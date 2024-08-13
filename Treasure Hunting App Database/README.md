@@ -5,19 +5,8 @@ Andrew Fox
 
 This is a use case project for a treasure hunting mobile application database. This project was completed for the course 'Data Management for Analytics' taught by Professor Xuemin Jin during Northeastern University's Masters in Data Analytics Engineering. 
 
-## My Links
-My [Portfolio](https://andrewfox1.wordpress.com/data-science/)
-<br>
-My [LinkedIn](www.linkedin.com/in/ajfandrewjfox)
-<br>
-My [Tableau Public](https://public.tableau.com/app/profile/andrew.fox3475)
-<br>
-My [Kaggle](https://www.kaggle.com/andrewjfox)
-<br>
-My [RPubs](https://rpubs.com/AndrewFox)
-
 ## Versions
-This project was utilized MySQL Workbench, Python in Pycharm, and an online playground provided by our textbook for MongoDB implementations. All work was completed on a Macbook Pro. 
+This project utilized MySQL Workbench, Python in Pycharm, and an online playground provided by our textbook for MongoDB implementations. All work was completed on a Macbook Pro. 
 
 *MySQL Server*<br>
 Version      : 8.2.0 (MySQL Community Server - GPL)<br>
