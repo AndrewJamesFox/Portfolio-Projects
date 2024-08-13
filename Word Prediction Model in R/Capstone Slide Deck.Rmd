@@ -1,0 +1,61 @@
+---
+title: "Capstone Slide Deck"
+author: "Andrew J Fox"
+date: "2023-06-12"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+---
+title: "Capstone - A Word Suggesting Model"
+author: "Andrew J Fox"
+date: "2023-05-17"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+When typing on any device, it is a huge quality-of-life improvement to have words suggested to you to assist in forming your sentences. It is even more useful when the device is accurate in these suggestions, providing words that could even complete a sentence for you without you having to think.
+
+This slide deck is a showcase of how this was done for this application.
+
+\pagebreak
+
+## How it Works {.smaller}
+
+A corpus of words is constructed from text files of blogs, news articles, and twitter. The lines of text are used to analyze the sequence of words, calculating which words are most likely to follow each other. A predictive model can then analyze these liklihoods and suggest to a user the most likely words to follow a given input text.
+
+Various approaches to building such a model exist. For this application, a simple n-gram model was used, as they are tried and true models and provide sufficient accuracy with little computational demands.
+
+N-grams refer to a sequence of *n* words, and the model suggets words based on the probability a cerain n-gram exists. For example, given the 2-gram of *"when we"*, the model may suggest the words: *"are"*, *"have"*, or *"can"*, given that the 3-grams of *"when we are"*, *"when we have"*, and *"when we can"* are more common than any other.
+
+\pagebreak
+
+## The Application {.smaller}
+
+![](images/Screenshot%202023-05-17%20at%203.08.02%20PM.png "User Interface"){.wrap_text width="215"}
+
+Above is the user interface for the application. The user is able to input text, and a number of suggested words will be provided. Any good application does not force the suggested words onto the user, and so it is up to the user to decide whether the suggested words are worth using.
+
+The model is able to predict the *exact* following word with about 50% accuracy. Given that multiple words can be suggesting at once, this accuracy increases.
+
+Building the model is also a balancing act between accuracy and runtime. Nobody wants to sit around waiting for word suggestions, but nobody wants to be suggested words that make no sense either. The model finds a balance by predicting the most likely words while returning said suggestions in about one second.
+
+\pagebreak
+
+## The Nitty-Gritty {.smaller}
+
+This slide outlines the details of how the model was built.
+
+Only 3% of the text files are used in the entire corpus, which is then split into a 60% training set, 20% testing set, and a 20% validation set. Before training the model, the text is cleaned to remove punctuation, capital letters, extra white space, etc.
+
+Unigrams, bigrams, and trigrams, as well as their frequency/probability, are retrieved from the training set. The first model uses markov chains to store transition probabilities between n-grams. It was not accurate and rather slow. The second model uses the sorted frequency tables of n-grams to suggest the most common word that follows a given n-gram. This model proved faster and much more accurate.
+
+Backoff is implmented such that if the model receives an input n-gram that is not seen, it backs off to the n-1gram to suggest words using "less" information. This backoff continues until the model must suggest the most common words.
