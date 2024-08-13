@@ -13,20 +13,8 @@ A slide deck for the project is hosted on Rpubs [here](https://rpubs.com/AndrewF
 <br>
 The Shiny web app is hosted [here](https://captainnott.shinyapps.io/Capstone_Word_Prediction/).
 
-## My Links
-My [Portfolio](https://andrewfox1.wordpress.com/data-science/)
-<br>
-My [LinkedIn](www.linkedin.com/in/ajfandrewjfox)
-<br>
-My [Tableau Public](https://public.tableau.com/app/profile/andrew.fox3475)
-<br>
-My [Kaggle](https://www.kaggle.com/andrewjfox)
-<br>
-My [RPubs](https://rpubs.com/AndrewFox)
-
 ## Versions
 The project was completed in R in RStudio.
-
 <br>
 
 *R Studio*
