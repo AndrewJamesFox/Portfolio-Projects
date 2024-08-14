@@ -3,23 +3,13 @@
 Andrew Fox
 <br>2023-08-04
 
-This is a portfolio project using SQL Server Management Studio to explore some Covid data. The tables created from the queries in this project are used in another project, [Data Visualization in Tableau](https://public.tableau.com/app/profile/andrew.fox3475/viz/CovidDataVisualizationDashboard_16911892016570/Dashboard1?publish=yes).
+This is a portfolio project using SQL Server Management Studio to explore some Covid data. The visualization portion of this project can be found [here](https://public.tableau.com/app/profile/andrew.fox3475/viz/CovidDataVisualizationDashboard_16911892016570/Dashboard1?publish=yes).
 
 ## Links
 The Covid Data is downloaded from *Our World in Data* [here](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0tmTFU0MmVoQVdLTzdzZ3V0RUdXeTI1SkEwZ3xBQ3Jtc0tta2IxRU1LbEotRVhKRURLaXphSVZkdWFWRjFBT2d1bXRVc3RPS0ZQSFJmbUtpTTI4TERZdHo0ZTlSV1V2bU9xTzl4MWZmamR6cThINm5yQjR5bnNNT2NFYnB0NldtY2lXekV4ZzJveEg2aURoTUM3QQ&q=https%3A%2F%2Fourworldindata.org%2Fcovid-deaths&v=qfyynHBFOsM).
 <br>
 This project was completed with some guidance from Youtuber, [*Alex The Analyst's*](https://www.youtube.com/@AlexTheAnalyst) video, found [here](https://www.youtube.com/watch?v=qfyynHBFOsM). The exact Excel files queried in this project were downloaded from the description of this video, but does come from the aforementioned link above. 
 
-## My Links
-My [Portfolio](https://andrewfox1.wordpress.com/data-science/)
-<br>
-My [LinkedIn](www.linkedin.com/in/ajfandrewjfox)
-<br>
-My [Tableau Public](https://public.tableau.com/app/profile/andrew.fox3475)
-<br>
-My [Kaggle](https://www.kaggle.com/andrewjfox)
-<br>
-My [RPubs](https://rpubs.com/AndrewFox)
 
 ## Versions
 The project was completed in SQL Server Management Studio (SSMS). CSV files of Covid Death and Vaccination Data were handled in LibreOffice Calc
