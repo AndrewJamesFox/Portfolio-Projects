@@ -1,9 +1,9 @@
-# COVID Data Exploration SSMS
+# COVID Data Exploration in SSMS and Visualization in Tableau
 
 Andrew Fox
 <br>2023-08-04
 
-This is a portfolio project using SQL Server Management Studio to explore some Covid data. The visualization portion of this project can be found [here](https://public.tableau.com/app/profile/andrew.fox3475/viz/CovidDataVisualizationDashboard_16911892016570/Dashboard1?publish=yes).
+This is a portfolio project using SQL Server Management Studio to explore and visualize some Covid data. The visualization portion of this project can be found [here](https://public.tableau.com/app/profile/andrew.fox3475/viz/CovidDataVisualizationDashboard_16911892016570/Dashboard1?publish=yes).
 
 ## Links
 The Covid Data is downloaded from *Our World in Data* [here](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0tmTFU0MmVoQVdLTzdzZ3V0RUdXeTI1SkEwZ3xBQ3Jtc0tta2IxRU1LbEotRVhKRURLaXphSVZkdWFWRjFBT2d1bXRVc3RPS0ZQSFJmbUtpTTI4TERZdHo0ZTlSV1V2bU9xTzl4MWZmamR6cThINm5yQjR5bnNNT2NFYnB0NldtY2lXekV4ZzJveEg2aURoTUM3QQ&q=https%3A%2F%2Fourworldindata.org%2Fcovid-deaths&v=qfyynHBFOsM).
@@ -17,7 +17,6 @@ The project was completed in SQL Server Management Studio (SSMS). CSV files of C
 <br>
 
 *SSMS*
-<br>
 <br>SQL Server Management Studio						    19.1.56.0
 <br>SQL Server Management Objects (SMO)					16.200.48044.0+eeb184ee48a91ebc6a27a5d192c0d67bdfaae8b6
 <br>Microsoft T-SQL Parser						          17.0.8.0+3c5555b8bd579d12add8f155f1dbc871e3e734c4
@@ -30,7 +29,6 @@ The project was completed in SQL Server Management Studio (SSMS). CSV files of C
 <br>
 
 *LibreOffice Calc*
-<br>
 <br>Version: 7.5.5.2 (X86_64) / LibreOffice Community
 <br>Build ID: ca8fe7424262805f223b9a2334bc7181abbcbf5e
 <br>CPU threads: 12; OS: Windows 10.0 Build 22621; UI render: Skia/Vulkan; VCL: win
