@@ -9,10 +9,11 @@ This project was a semester-long project for the Data Warehousing and Integratio
 This project was primarly completed in Talend and PostreSQL on a Windows computer.
 
 *Talend*<br>
-7.0.8
+8.0.1
 
 *PostregreSQL*<br>
-3.11.8
+16.4 Server 17.0
 
 *Windows*<br>
-Ventura 13.6.4
+Windows 11 
+<br>Windows 24H2 (OS Build 26100.2454)
