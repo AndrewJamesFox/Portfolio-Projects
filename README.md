@@ -2,7 +2,7 @@
 Data Science Portfolio Projects
 
 ### My Links
-My [Portfolio](https://andrewfox1.wordpress.com/data-science/)
+My [Portfolio Website]([https://andrewfox1.wordpress.com/data-science/](https://andrew-fox.my.canva.site/#data-portfolio))
 <br>
 My [LinkedIn](www.linkedin.com/in/ajfandrewjfox)
 <br>
